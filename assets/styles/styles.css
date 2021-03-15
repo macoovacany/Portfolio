@@ -1,0 +1,75 @@
+
+
+header div.banner-image {
+    width:960px; 
+    height:540px; 
+    background-image:url('../images/banner.jpg');
+    margin:0; 
+    padding:0; 
+ }
+
+body {
+   font-family: 'Courier Prime', monospace;
+   max-width:60em;
+   padding: 0 20px;
+   align-content: center;
+   border:black 10px;
+   position: relative;
+   background-color: #E5E5F7;
+   /* opacity: 0.5;
+   background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #E5E5F7 20px ), repeating-linear-gradient( #444CF755, #444CF7 );
+   z-index: -1; */
+}
+
+main{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 60em;
+
+}
+
+.left-border, .right-border {
+   width: 20em;
+}
+
+
+@media only screen and (max-width: 600px) {
+   body {
+     flex-wrap: wrap;
+   }
+ }
+
+ header nav{
+    align-items: right;
+    text-align: center;
+
+ }
+
+ header nav li{
+     display: inline;
+     color: white;
+     background-color: #1a1a3d;
+     border-color: black;
+     padding: 5px 20px 5px;
+}
+
+.indexpage-article {
+   border-color: black;
+   border-width: 5px;
+}
+
+
+.indexpage-article h2{
+   float: left;
+   vertical-align: bottom;
+
+}
+
+#about-me{
+   text-align: left;
+}
+
+.indexpage-article .article-image-link{
+   float: right;
+}
