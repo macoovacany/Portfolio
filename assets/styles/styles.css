@@ -3,13 +3,13 @@
 header div.banner-image {
     width:960px; 
     height:540px; 
-    background-image:url('../images/banner.jpg');
     margin:0; 
     padding:0; 
  }
 
 body {
-   font-family: 'Courier Prime', monospace;
+   /* font-family:  'Courier Prime', monospace; */
+   font-family: 'Garamond';
    max-width:60em;
    padding: 0 20px;
    align-content: center;
@@ -21,6 +21,12 @@ body {
    z-index: -1; */
 }
 
+.banner-image{
+   max-width: 600pt;
+   width: 100%;
+   padding: 0;
+}
+
 main{
    display: flex;
    flex-direction: column;
@@ -29,9 +35,6 @@ main{
 
 }
 
-.left-border, .right-border {
-   width: 20em;
-}
 
 
 @media only screen and (max-width: 600px) {
@@ -40,36 +43,27 @@ main{
    }
  }
 
- header nav{
-    align-items: right;
-    text-align: center;
-
- }
-
- header nav li{
-     display: inline;
-     color: white;
-     background-color: #1a1a3d;
-     border-color: black;
-     padding: 5px 20px 5px;
+.swiper-container {
+   width: 100%;
+   height: 100%;
 }
 
-.indexpage-article {
-   border-color: black;
-   border-width: 5px;
-}
+.swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
 
-
-.indexpage-article h2{
-   float: left;
-   vertical-align: bottom;
-
-}
-
-#about-me{
-   text-align: left;
-}
-
-.indexpage-article .article-image-link{
-   float: right;
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
 }

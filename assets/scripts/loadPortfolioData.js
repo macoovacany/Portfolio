@@ -1,0 +1,111 @@
+
+// 
+let portfolioCards = [
+    {
+        sectionName: "Contact me",
+        cards: [
+            {
+                link: "mailto:macoovacany@hotmail.com",
+                thumbNail: "./assets/images/hotmail.png",
+                altDescription: "Email me at hotmail",
+                heading: "Email me at hotmail",
+                longDescription: "Email me at hotmail. It's old, but it still works."
+            },
+            {
+                link: "./assets/downloads/20201222_Resume_Tim_McKeaveney.pdf",
+                thumbNail: "./assets/images/pdf.png",
+                altDescription: "Download Resume",
+                heading: "Resume",
+                longDescription: "Download Resume."
+            },
+            {
+                link: "https://github.com/macoovacany",
+                thumbNail: "./assets/images/github.png",
+                altDescription: "Github ",
+                heading: "Github profile",
+                longDescription: "Link to my github profile."
+            },
+            {
+                link: "https://macoovacany.blogspot.com/",
+                thumbNail: "./assets/images/blogspot.png",
+                altDescription: "Blog spot",
+                heading: "Blogspot link",
+                longDescription: "Link to my blog."
+            }
+        ]
+    },
+    {
+        sectionName: "Full Stack Flex Projects",
+        cards: [
+            {
+                link: "https://github.com/macoovacany/quizSite",
+                thumbNail: "./assets/images/ScreenGrab_Quiz.png",
+                altDescription: "Javascript Quiz Site",
+                heading: "Javascript Quiz Site",
+                longDescription: "Javascript Quiz Site"
+            },
+            {
+                link: "https://github.com/macoovacany/ejctAlcoholicApothecary",
+                thumbNail: "./assets/images/ejectAlcoholic.png",
+                altDescription: "Cocktail Suggester",
+                heading: "ejct Alcoholic Apothecary",
+                longDescription: "Group project (ejct) showing dynamic workflow and API Calls"
+            },
+            {
+                link: "https://github.com/macoovacany/workDayPlanner",
+                thumbNail: "./assets/images/ScreenshotWorkdayPlanner.png",
+                altDescription: "Work Day Planner",
+                heading: "Work Day Planner",
+                longDescription: "Work day planner project to demonstrate event timers and local storage."
+            },
+            {
+                link: "https://github.com/macoovacany/passwordGenerator",
+                thumbNail: "./assets/images/screenshot_passwordGenerator.png",
+                altDescription: "Password Generator",
+                heading: "Password Generator",
+                longDescription: "Passwrd generator project to demonstrate basic javascript coding skills."
+            },
+            {
+                link: "https://github.com/macoovacany/weatherApp",
+                thumbNail: "./assets/images/screenshot_weatherApp.png",
+                altDescription: "Weather Application",
+                heading: "Weather Application (incomplete)",
+                longDescription: "Weather application to demonstrate local storage and api calls."
+            },
+        ]
+    },
+    {
+        sectionName: "AerospaceCards",
+        cards: [
+            {
+                link: "#",
+                thumbNail: "./assets/images/2d-solvers.png",
+                altDescription: "2D Aerfoil solvers",
+                heading: "2D Aerofoil Solvers",
+                longDescription: "Solves 2D flow around aerofoil using vortex methods, with simple boundary layer corrections."
+            },
+            {
+                link: "#",
+                thumbNail: "./assets/images/3D-VLM.png",
+                altDescription: "3D potential flow solvers",
+                heading: "3D potential flow",
+                longDescription: "Solves 3d potential flow around lifting surfaces and bodies of revloution."
+            },
+            {
+                link: "#",
+                thumbNail: "./assets/images/box-beam.png",
+                altDescription: "Box Beam Stresses",
+                heading: "Box Beam Stresses",
+                longDescription: "Solves for direct and shear stress in a single cell box beam"
+            },
+            {
+                link: "#",
+                thumbNail: "./assets/images/plate-buckling.png",
+                altDescription: "Plate Buckling",
+                heading: "Plate Buckling",
+                longDescription: "Solves plate buckling problems."
+            }
+        ]
+    }
+];
+
