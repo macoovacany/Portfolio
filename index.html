@@ -1,225 +1,31 @@
-<html lang="en"><head>
-    <title>Tim Mckeaveney Portfolio - macoovacany</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Tim Mckeaveney Portfolio - macoovacany</title>
+        
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./assets/styles/styles.css" />
 
 </head>
 
 <body class="bg-grey-300 h-full ">
-<main class="flex justify-center">
-    <ul class="block w-11/12 my-4 mx-auto" x-data="{selected:0}" id="main-accordian-list">            <li class="flex align-center flex-col">
-            <h4 @click="selected !== 0 ? selected = 0 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-300 text-white text-center inline-block hover:opacity-75 hover:shadow hover:-mb-3 rounded-t">
-                Tim McKeaveney, Personal Website
-            </h4>
-            <p x-show="selected == 0" class=" flex justify-center  py-0 px-0 ">
-                <img class=" banner-image" src="assets/images/banner.jpg">
-            </p>
-        </li>
-<li class="flex align-center flex-col">
-<h4 @click="selected !== 1 ? selected = 1 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 text-white text-center inline-block hover:opacity-75 hover:shadow hover:-mb-3">
-    Contact me </h4>
-<div x-show="selected == 1">
-    <div class="flex flex-row space-x-4">
-    <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" style="cursor: grab;">
-<div class="swiper-wrapper" id="swiper-wrapper-bcb0f8ac774b107b6" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(227.5px, 0px, 0px);">
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 425px; margin-right: 30px;">
-<a href="mailto:macoovacany@hotmail.com">
-<img class="w-full" src="./assets/images/hotmail.png" alt="Email me at hotmail">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Email me at hotmail</div>
-<p class="text-grey-darker text-base"> Email me at hotmail. It's old, but it still works.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 425px; margin-right: 30px;">
-<a href="./assets/downloads/20201222_Resume_Tim_McKeaveney.pdf">
-<img class="w-full" src="./assets/images/pdf.png" alt="Download Resume">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Resume</div>
-<p class="text-grey-darker text-base"> Download Resume.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="3 / 4" style="width: 425px; margin-right: 30px;">
-<a href="https://github.com/macoovacany">
-<img class="w-full" src="./assets/images/github.png" alt="Github ">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Github profile</div>
-<p class="text-grey-darker text-base"> Link to my github profile.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="4 / 4" style="width: 425px; margin-right: 30px;">
-<a href="https://macoovacany.blogspot.com/">
-<img class="w-full" src="./assets/images/blogspot.png" alt="Blog spot">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Blogspot link</div>
-<p class="text-grey-darker text-base"> Link to my blog.</p>
-</div>
-</a>
-</div>
-</div>
-<div class="swiper-scrollbar"></div>
-<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span></div>
-<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-
-</div>
-</div>
-
-</li>
-<li class="flex align-center flex-col">
-<h4 @click="selected !== 2 ? selected = 2 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 text-white text-center inline-block hover:opacity-75 hover:shadow hover:-mb-3">
-    Full Stack Flex Projects </h4>
-<div x-show="selected == 2">
-    <div class="flex flex-row space-x-4">
-    <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" style="cursor: grab;">
-<div class="swiper-wrapper" id="swiper-wrapper-854bd7cec42e66b3" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(227.5px, 0px, 0px);">
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" style="width: 425px; margin-right: 30px;">
-<a href="https://github.com/macoovacany/quizSite">
-<img class="w-full" src="./assets/images/ScreenGrab_Quiz.png" alt="Javascript Quiz Site">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Javascript Quiz Site</div>
-<p class="text-grey-darker text-base"> Javascript Quiz Site</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide swiper-slide-next" role="group" aria-label="2 / 5" style="width: 425px; margin-right: 30px;">
-<a href="https://github.com/macoovacany/ejctAlcoholicApothecary">
-<img class="w-full" src="./assets/images/ejectAlcoholic.png" alt="Cocktail Suggester">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">ejct Alcoholic Apothecary</div>
-<p class="text-grey-darker text-base"> Group project (ejct) showing dynamic workflow and API Calls</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="3 / 5" style="width: 425px; margin-right: 30px;">
-<a href="https://github.com/macoovacany/workDayPlanner">
-<img class="w-full" src="./assets/images/ScreenshotWorkdayPlanner.png" alt="Work Day Planner">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Work Day Planner</div>
-<p class="text-grey-darker text-base"> Work day planner project to demonstrate event timers and local storage.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="4 / 5" style="width: 425px; margin-right: 30px;">
-<a href="https://github.com/macoovacany/passwordGenerator">
-<img class="w-full" src="./assets/images/screenshot_passwordGenerator.png" alt="Password Generator">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Password Generator</div>
-<p class="text-grey-darker text-base"> Passwrd generator project to demonstrate basic javascript coding skills.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="5 / 5" style="width: 425px; margin-right: 30px;">
-<a href="https://github.com/macoovacany/weatherApp">
-<img class="w-full" src="./assets/images/screenshot_weatherApp.png" alt="Weather Application">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Weather Application (incomplete)</div>
-<p class="text-grey-darker text-base"> Weather application to demonstrate local storage and api calls.</p>
-</div>
-</a>
-</div>
-</div>
-<div class="swiper-scrollbar"></div>
-<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
-<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-
-</div>
-</div>
-
-</li>
-<li class="flex align-center flex-col">
-<h4 @click="selected !== 3 ? selected = 3 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 text-white text-center inline-block hover:opacity-75 hover:shadow hover:-mb-3">
-    AerospaceCards </h4>
-<div x-show="selected == 3">
-    <div class="flex flex-row space-x-4">
-    <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" style="cursor: grab;">
-<div class="swiper-wrapper" id="swiper-wrapper-b9eab5f57e0103c5c" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(227.5px, 0px, 0px);">
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide swiper-slide-active" role="group" aria-label="1 / 4" style="width: 425px; margin-right: 30px;">
-<a href="#">
-<img class="w-full" src="./assets/images/2d-solvers.png" alt="2D Aerfoil solvers">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">2D Aerofoil Solvers</div>
-<p class="text-grey-darker text-base"> Solves 2D flow around aerofoil using vortex methods, with simple boundary layer corrections.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide swiper-slide-next" role="group" aria-label="2 / 4" style="width: 425px; margin-right: 30px;">
-<a href="#">
-<img class="w-full" src="./assets/images/3D-VLM.png" alt="3D potential flow solvers">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">3D potential flow</div>
-<p class="text-grey-darker text-base"> Solves 3d potential flow around lifting surfaces and bodies of revloution.</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="3 / 4" style="width: 425px; margin-right: 30px;">
-<a href="#">
-<img class="w-full" src="./assets/images/box-beam.png" alt="Box Beam Stresses">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Box Beam Stresses</div>
-<p class="text-grey-darker text-base"> Solves for direct and shear stress in a single cell box beam</p>
-</div>
-</a>
-</div>
-
-<div class="max-w-xs rounded overflow-hidden shadow-lg my-2 swiper-slide" role="group" aria-label="4 / 4" style="width: 425px; margin-right: 30px;">
-<a href="#">
-<img class="w-full" src="./assets/images/plate-buckling.png" alt="Plate Buckling">
-<div class="px-6 py-4">
-<div class="font-bold text-xl mb-2">Plate Buckling</div>
-<p class="text-grey-darker text-base"> Solves plate buckling problems.</p>
-</div>
-</a>
-</div>
-</div>
-<div class="swiper-scrollbar"></div>
-<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span></div>
-<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-
-</div>
-</div>
-
-</li>
-</ul>
-</main>
-
+    <main class="flex justify-center">
+        <ul class="block w-11/12 my-4 mx-auto"  id="main-accordian-list">
+        </ul>
+    </main>
+</body>
 
 <!-- accordian and swiper -->
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.8.0/dist/alpine.js" defer=""></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js" ></script>
 
-<!-- Generaor Site code -->
-<!-- <script src="./assets/scripts/loadPortfolioData.js"> </script>
+<!-- Site bespoke code -->
+<script src="./assets/scripts/loadPortfolioData.js"> </script>
 <script src="./assets/scripts/generateHtml.js"> </script>
-<script src="./assets/scripts/app.js"> </script>
--->
+<script src="./assets/scripts/app.js"> </script> 
 
 <script>
-        var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 2,
-        centeredSlides: true,
-        spaceBetween: 30,
-        grabCursor: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        }
-    })
 </script>
 
-</body></html>
+</html>
