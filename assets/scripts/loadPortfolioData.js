@@ -31,11 +31,71 @@ let portfolioCards = [
                 altDescription: "Blog spot",
                 heading: "Blogspot link",
                 longDescription: "Link to my blog."
-            }
+            },
+
         ]
     },
+
+    
     {
-        sectionName: "Full Stack Flex Projects",
+        sectionName: "Full Stack Flex Projects (Deployed applications)",
+        cards: [
+            {
+                link: "https://macoovacany.github.io/quizSite/",
+                thumbNail: "./assets/images/ScreenGrab_Quiz.png",
+                altDescription: "Javascript Quiz Site",
+                heading: "Javascript Quiz Site",
+                longDescription: "Javascript Quiz Site"
+            },
+            {
+                link: "https://macoovacany.github.io/ejctAlcoholicApothecary/",
+                thumbNail: "./assets/images/ejectAlcoholic.png",
+                altDescription: "Cocktail Suggester",
+                heading: "ejct Alcoholic Apothecary",
+                longDescription: "Group project (ejct) showing dynamic workflow and API Calls"
+            },
+            {
+                link: "https://macoovacany.github.io/workDayPlanner/",
+                thumbNail: "./assets/images/ScreenshotWorkdayPlanner.png",
+                altDescription: "Work Day Planner",
+                heading: "Work Day Planner",
+                longDescription: "Work day planner project to demonstrate event timers and local storage."
+            },
+            {
+                link: "https://macoovacany.github.io/passwordGenerator/",
+                thumbNail: "./assets/images/screenshot_passwordGenerator.png",
+                altDescription: "Password Generator",
+                heading: "Password Generator",
+                longDescription: "Passwrd generator project to demonstrate basic javascript coding skills."
+            },
+            {
+                link: "https://macoovacany.github.io/weatherApp/",
+                thumbNail: "./assets/images/screenshot_weatherApp.png",
+                altDescription: "Weather Application",
+                heading: "Weather Application (incomplete)",
+                longDescription: "Weather application to demonstrate local storage and api calls."
+            },
+            {
+                link: "https://fsf-timmck-notetaker.herokuapp.com/",
+                thumbNail: "./assets/images/note-taker.png",
+                altDescription: "Example of a note taking application",
+                heading: "Note taking application ",
+                longDescription: "Note taking application, exercise to code back-end server only"
+            },
+            {
+                link: "https://fsf-hello-green.herokuapp.com/",
+                thumbNail: "./assets/images/hello-green.png",
+                altDescription: "Group assignment technical blog example.",
+                heading: "Hello Green blog example",
+                longDescription: "Technical blog, group assignment written from scratch."
+            },
+
+        ]
+    },
+
+    
+    {
+        sectionName: "Full Stack Flex Projects (Github links)",
         cards: [
             {
                 link: "https://github.com/macoovacany/quizSite",
@@ -69,13 +129,57 @@ let portfolioCards = [
                 link: "https://github.com/macoovacany/weatherApp",
                 thumbNail: "./assets/images/screenshot_weatherApp.png",
                 altDescription: "Weather Application",
-                heading: "Weather Application (incomplete)",
+                heading: "Weather Application",
                 longDescription: "Weather application to demonstrate local storage and api calls."
+            },
+            {
+                link: "https://github.com/macoovacany/readmeGenerator",
+                thumbNail: "./assets/images/command_line_app.png",
+                altDescription: "Readme Generator",
+                heading: "Readme Generator",
+                longDescription: "Readme Generator using inquirer."
+            },
+            {
+                link: "https://github.com/macoovacany/employeeTracker",
+                thumbNail: "./assets/images/command_line_app.png",
+                altDescription: "Employee Tracker",
+                heading: "Employee Tracker",
+                longDescription: "Command line application to track employees and managers. "
+            },
+            {
+                link: "https://github.com/macoovacany/ecommerceBackendExample",
+                thumbNail: "./assets/images/command_line_app.png",
+                altDescription: "Ecommerce Backend ",
+                heading: "Ecommerce Backend",
+                longDescription: "Ecommerce Backend application using inquirer."
+            },
+            {
+                link: "https://github.com/macoovacany/noteTaker",
+                thumbNail: "./assets/images/note-taker.png",
+                altDescription: "Example of a note taking application",
+                heading: "Note taking application ",
+                longDescription: "Note taking application, exercise to code back-end server only"
+            },
+
+            {
+                link: "https://github.com/macoovacany/techBlog",
+                thumbNail: "./assets/images/tech-blog.png",
+                altDescription: "Technical blog example.",
+                heading: "Technical blog example",
+                longDescription: "Technical blog, exercise to demonstrate MVC style back-end architecture."
+            },
+
+            {
+                link: "https://github.com/macoovacany/Hello-Green",
+                thumbNail: "./assets/images/hello-green.png",
+                altDescription: "Group assignment technical blog example.",
+                heading: "Hello Green blog example",
+                longDescription: "Technical blog, group assignment written from scratch."
             },
         ]
     },
     {
-        sectionName: "AerospaceCards",
+        sectionName: "Aerospace Cards",
         cards: [
             {
                 link: "#",
